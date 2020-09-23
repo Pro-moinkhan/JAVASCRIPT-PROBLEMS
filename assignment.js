@@ -14,7 +14,7 @@ function woodCalculator(table, chair, bed){
 function brickCalculator(floor){
     var brick = 1000;
     if(floor > 10 && floor <= 20){
-        return (10 * 15 * brick) + ((floor - 20) * 12 * brick);
+        return (10 * 15 * brick) + ((floor - 10) * 12 * brick);
     }
     else if(floor > 20){
         return (10 * 15 * brick) + (10 * 12 * brick) + ((floor - 20) * 10 * brick);
