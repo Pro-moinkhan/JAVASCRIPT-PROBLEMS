@@ -17,12 +17,13 @@ function brickCalculator(floor){
         return (10 * 15 * brick) + ((floor - 10) * 12 * brick);
     }
     else if(floor > 20){
-        return (10 * 15 * brick) + ((floor - 10) * 12 * brick) + ((floor - 20) * 10 * brick);
+        return (10 * 15 * brick) + (10 * 12 * brick) + ((floor - 20) * 10 * brick);
     }
     else{
         return (floor * 15 * brick);
     }
 }
+
 
 // tinyFriends
 function firends(name){
